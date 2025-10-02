@@ -12,5 +12,5 @@ This is my first Python project — a command-line game based on the classic Sna
 
 ## Technologies Used
 - Python 3.x
-- `random` module
+- 'random' module
 
