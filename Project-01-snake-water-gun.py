@@ -18,6 +18,10 @@ you = youDict[youStr]
 
 print(f"You choose {reversed_Dict[you]} and computer choose {reversed_Dict[computer]}")
 
+if youStr not in youDict:
+    print("Invalid input! Please enter 's', 'w', or 'g'.")
+    exit()
+
 if computer == you:
     print("Draw!!! Try Again")
 else:
